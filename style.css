@@ -1,0 +1,221 @@
+*,
+*::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    line-height: 1.4;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow: scroll-y;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .logo {
+    font-size: 30px;
+}
+
+#S1 {
+    background: url("/img/hero-bg.jpg") #fff no-repeat center/cover;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    width: 100%;
+}
+
+.hero-text {
+    color: #fff;
+    padding: 9rem 6rem;
+    width: 40%;
+    align-items: center;
+}
+
+.hero-text span {
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.hero-text p {
+    font-size: 0.85rem;
+}
+
+.hero-form {
+    background: #333;
+    margin: 3rem 6rem;
+    padding: 1rem 2rem 0.5rem;
+    color: #fff;
+    border-radius: 0.4rem;
+    opacity: 0.8;
+    height: 350px;
+    width: 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+form p {
+    font-size: 0.66rem;
+    /* padding: 1rem; */
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.form-control {
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    height: 2.75rem;
+    outline: none;
+    display: inline-block;
+    padding: 3px;
+    padding-left: 10px;
+    border: none;
+}
+
+.btn {
+    color: #fff;
+    background: rgb(130, 252, 70);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#services {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 3rem;
+    margin: 0 10rem;
+}
+
+.card {
+    width: 33.3%;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+    background: rgba(219, 218, 218, 0.705);
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+#services h3 {
+    font-size: 14px;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#services p {
+    text-align: center;
+}
+
+
+
+
+#testimonies {
+    background: rgba(219, 218, 218, 0.705);
+}
+
+#testimonies h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: 500;
+}
+
+.client-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.client {
+    width: 50%;
+    margin-left: 200px;
+    padding: 30px;
+}
+
+.client img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px #fff solid;
+    margin-bottom: 0.6rem;
+}
+
+.client-img-1 {
+    margin-left: 220px;
+}
+
+.client h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.h4-1 {
+    margin-left: 120px;
+}
+
+.h4-2 {
+    margin-left: -320px;
+}
+
+hr {
+    width: 200px;
+    margin-bottom: 1rem;
+
+}
+
+.hr-1 {
+    margin-left: 180px;
+}
+
+.hr-2 {
+    margin-left: -50px;
+}
+
+.client p {
+    width: 60%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.p-1 {
+    margin-left: 150px;
+}
+
+.p-2 {
+    margin-left: -90px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    padding: 10px;
+}
